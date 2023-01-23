@@ -219,7 +219,7 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(img/srtar.jpg);
+    background-image: url(img/stars.gif);
     /* background-color: #000; */
 }
 
@@ -353,7 +353,7 @@ span {
 }
 
 #about .text-wrapper {
-    width: 35rem;
+    width: 38rem;
     padding-left: 40px;
 }
 
@@ -381,7 +381,7 @@ span {
 
 #about .about-list .list-item {
     display: inline-flex;
-    width: 16rem;
+    width: 17rem;
     margin-bottom: 1rem;
 
 }
@@ -683,13 +683,20 @@ span {
 
 }
 
-.gallery-item .gallery-item-inner .overlay p {
+.gallery-item .gallery-item-inner .overlay a  {
     color: var(--main--color);
+    text-decoration: none;
     font-size: 20px;
     font-weight: 600;
     padding-top: 5px;
 }
 
+.gallery-item .gallery-item-inner .overlay p  {
+    color: var(--main--color);
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 5px;
+}
 /* **********REVIEWS****************** */
 #reviews {
     padding: 0 7rem;
@@ -1113,7 +1120,7 @@ input[type="checkbox"]:checked~.hamburger-lines .line3 {
         justify-content: flex-start;
     }
     #home{
-        background-image: none;
+        background-image: url(img/stars.gif);
     }
     #home .hero-img{
         display: none;
